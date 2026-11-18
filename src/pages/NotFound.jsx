@@ -8,7 +8,7 @@ export default function NotFound() {
         <div className="w-16 h-16 rounded-2xl bg-[#1C120C] text-[#D4AF37] flex items-center justify-center mx-auto">
           <AlertCircle className="w-8 h-8" />
         </div>
-        <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#9A7418]">
+        <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#7D5F12]">
           Error 404 • Page Not Found
         </p>
         <h1 className="font-serif text-3xl font-bold text-[#1C120C]">

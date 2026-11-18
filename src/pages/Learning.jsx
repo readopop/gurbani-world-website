@@ -8,7 +8,7 @@ export default function Learning() {
     <section className="py-16 bg-[#FAF7F2]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
         <div className="text-center max-w-3xl mx-auto space-y-3">
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#9A7418]">
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#7D5F12]">
             Educational Resources
           </span>
           <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#1C120C]">
@@ -30,7 +30,7 @@ export default function Learning() {
                 className="bg-white rounded-2xl p-6 border border-[#E6DEC8] hover:border-[#D4AF37] transition shadow-2xs flex flex-col justify-between space-y-5"
               >
                 <div className="space-y-3">
-                  <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#FAF7F2] border border-[#D4AF37]/40 text-[#9A7418]">
+                  <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#FAF7F2] border border-[#D4AF37]/40 text-[#7D5F12]">
                     {module.tag}
                   </span>
                   <h2 className="font-serif text-xl font-bold text-[#1C120C]">{module.title}</h2>

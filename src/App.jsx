@@ -1,16 +1,19 @@
+import { lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import Home from './pages/Home';
-import About from './pages/About';
-import Features from './pages/Features';
-import Learning from './pages/Learning';
-import AppShowcase from './pages/AppShowcase';
-import AboutApp from './pages/AboutApp';
-import Contact from './pages/Contact';
-import Privacy from './pages/Privacy';
-import AppPrivacyPolicy from './pages/AppPrivacyPolicy';
-import Terms from './pages/Terms';
 import NotFound from './pages/NotFound';
+
+// Home, Layout and NotFound stay in the main bundle; every other page loads on demand.
+const About = lazy(() => import('./pages/About'));
+const Features = lazy(() => import('./pages/Features'));
+const Learning = lazy(() => import('./pages/Learning'));
+const AppShowcase = lazy(() => import('./pages/AppShowcase'));
+const AboutApp = lazy(() => import('./pages/AboutApp'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Privacy = lazy(() => import('./pages/Privacy'));
+const AppPrivacyPolicy = lazy(() => import('./pages/AppPrivacyPolicy'));
+const Terms = lazy(() => import('./pages/Terms'));
 
 export default function App() {
   return (

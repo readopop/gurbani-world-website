@@ -75,7 +75,7 @@ export default function Home() {
       <section className="py-20 bg-[#FAF7F2]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <div className="text-center max-w-3xl mx-auto space-y-3">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#9A7418]">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#7D5F12]">
               Connecting With Guru
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1C120C]">

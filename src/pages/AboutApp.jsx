@@ -8,7 +8,7 @@ export default function AboutApp() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 bg-white rounded-2xl p-6 sm:p-12 border border-[#E6DEC8] shadow-2xs space-y-8">
         <div className="border-b border-[#E6DEC8] pb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
-            <span className="text-xs font-bold uppercase tracking-widest text-[#9A7418]">
+            <span className="text-xs font-bold uppercase tracking-widest text-[#7D5F12]">
               Application Overview
             </span>
             <h1 className="font-serif text-3xl font-bold text-[#1C120C] mt-1">About This App</h1>

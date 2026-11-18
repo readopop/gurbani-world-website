@@ -33,7 +33,7 @@ const AppPhoneMockup = ({ activeScreen = 0, onScreenChange }) => {
               GW
             </div>
             <div>
-              <p className="text-[8.5px] uppercase tracking-widest text-[#9A7418] font-bold leading-none">
+              <p className="text-[8.5px] uppercase tracking-widest text-[#7D5F12] font-bold leading-none">
                 ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ
               </p>
               <p className="font-serif font-bold text-xs text-[#1C120C] mt-0.5">Gurbani World</p>
@@ -69,7 +69,7 @@ const AppPhoneMockup = ({ activeScreen = 0, onScreenChange }) => {
             <p className="text-[9.5px] font-bold uppercase tracking-wider text-[#5C4938]">
               Nitnem & Banis
             </p>
-            <span className="text-[8.5px] text-[#9A7418] font-semibold">8 Banis</span>
+            <span className="text-[8.5px] text-[#7D5F12] font-semibold">8 Banis</span>
           </div>
           <div className="grid grid-cols-2 gap-1.5">
             {['Japji Sahib', 'Jaap Sahib', 'Rehras Sahib', 'Kirtan Sohila'].map((bani) => (
@@ -99,7 +99,7 @@ const AppPhoneMockup = ({ activeScreen = 0, onScreenChange }) => {
             <p className="text-[8.5px] font-bold">Simran Mala</p>
           </button>
           <div className="bg-white border border-[#E5DEC9] rounded-lg p-1.5 text-center">
-            <Search className="w-3 h-3 text-[#9A7418] mx-auto mb-0.5" />
+            <Search className="w-3 h-3 text-[#7D5F12] mx-auto mb-0.5" />
             <p className="text-[8.5px] font-bold">Search Gurbani</p>
           </div>
           <button
@@ -219,7 +219,7 @@ const AppPhoneMockup = ({ activeScreen = 0, onScreenChange }) => {
 
       <div className="rounded-lg bg-[#F2ECE1] p-2 text-[9.5px] text-[#4A3B2C] flex items-center justify-between border border-[#E5DEC9]">
         <span>Translations & Amrit Kirtan</span>
-        <span className="font-bold text-[#9A7418]">Gurmukhi • Hindi • EN</span>
+        <span className="font-bold text-[#7D5F12]">Gurmukhi • Hindi • EN</span>
       </div>
     </div>,
 
@@ -280,7 +280,7 @@ const AppPhoneMockup = ({ activeScreen = 0, onScreenChange }) => {
     >
       <div>
         <div className="border-b border-[#D4AF37]/30 pb-1.5">
-          <p className="text-[9px] uppercase tracking-widest text-[#9A7418] font-bold">
+          <p className="text-[9px] uppercase tracking-widest text-[#7D5F12] font-bold">
             Audio, Video & Learning
           </p>
           <p className="font-serif font-bold text-xs">Live Kirtan & Sikhi Hub</p>

@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+/* Typography (restored exactly as originally defined in Layout.jsx).
+   The Google Fonts stylesheet itself is loaded from index.html, non-blocking. */
+body {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', sans-serif;
+}
+.font-serif {
+  font-family: 'Cinzel', Georgia, serif;
+}
+.font-hindi {
+  font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif;
+}

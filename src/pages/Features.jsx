@@ -23,7 +23,7 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
         {/* Header & Filter Controls */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#9A7418]">
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#7D5F12]">
             Complete Android App Capabilities
           </span>
           <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#1C120C]">
@@ -37,13 +37,14 @@ export default function Features() {
           {/* Search Bar */}
           <div className="pt-2 max-w-md mx-auto">
             <div className="relative">
-              <Search className="absolute left-3.5 top-3.5 w-4 h-4 text-[#9A7418]" />
+              <Search className="absolute left-3.5 top-3.5 w-4 h-4 text-[#7D5F12]" />
               <input
                 type="text"
+                aria-label="Search app features"
                 value={featureSearch}
                 onChange={(e) => setFeatureSearch(e.target.value)}
                 placeholder="Search app features (e.g. Japji Sahib, Hukamnama, Simran)..."
-                className="w-full pl-10 pr-4 py-3 rounded-xl bg-white border border-[#E6DEC8] focus:border-[#D4AF37] focus:outline-none text-sm shadow-2xs"
+                className="w-full pl-10 pr-4 py-3 rounded-xl bg-white border border-[#E6DEC8] focus:border-[#D4AF37] focus:outline-none text-sm shadow-2xs placeholder:text-[#6E5A48]"
               />
             </div>
           </div>
@@ -96,7 +97,7 @@ export default function Features() {
                     </div>
                     <div>
                       <div className="flex items-center gap-2">
-                        <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-[#FAF7F2] border border-[#D4AF37]/40 text-[#9A7418]">
+                        <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-[#FAF7F2] border border-[#D4AF37]/40 text-[#7D5F12]">
                           Category {category.code}
                         </span>
                       </div>
@@ -121,7 +122,7 @@ export default function Features() {
                           <h3 className="font-serif font-bold text-base text-[#1C120C]">
                             {feature.name}
                           </h3>
-                          <CheckCircle2 className="w-4 h-4 text-[#9A7418] shrink-0 mt-0.5" />
+                          <CheckCircle2 className="w-4 h-4 text-[#7D5F12] shrink-0 mt-0.5" />
                         </div>
                         <p className="text-xs text-[#5C4938] leading-relaxed">{feature.desc}</p>
                       </div>
@@ -143,7 +144,7 @@ export default function Features() {
                   setFeatureSearch('');
                   setSelectedCategory('all');
                 }}
-                className="mt-3 text-xs font-bold text-[#9A7418] underline cursor-pointer"
+                className="mt-3 text-xs font-bold text-[#7D5F12] underline cursor-pointer"
               >
                 Clear search filters
               </button>

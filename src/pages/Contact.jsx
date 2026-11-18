@@ -48,9 +48,9 @@ export default function Contact() {
               {/* Contact Email Placeholder */}
               <div className="p-4 rounded-xl bg-[#FAF7F2] border border-[#E6DEC8] flex items-center justify-between gap-3">
                 <div className="flex items-center gap-3 min-w-0">
-                  <Mail className="w-5 h-5 text-[#9A7418] shrink-0" />
+                  <Mail className="w-5 h-5 text-[#7D5F12] shrink-0" />
                   <div className="truncate">
-                    <p className="text-[11px] font-bold uppercase tracking-wider text-[#9A7418]">
+                    <p className="text-[11px] font-bold uppercase tracking-wider text-[#7D5F12]">
                       Official Email
                     </p>
                     <p className="text-sm font-semibold text-[#1C120C] truncate">
@@ -93,7 +93,7 @@ export default function Contact() {
                       {BRAND_CONFIG.socialLinks.facebook.handle} (URL Placeholder)
                     </p>
                   </div>
-                  <Share2 className="w-4 h-4 text-[#9A7418]" />
+                  <Share2 className="w-4 h-4 text-[#7D5F12]" />
                 </a>
 
                 <a
@@ -156,7 +156,7 @@ export default function Contact() {
                       value={contactForm.name}
                       onChange={(e) => setContactForm({ ...contactForm, name: e.target.value })}
                       placeholder="Your Full Name"
-                      className="w-full px-4 py-3 rounded-xl bg-[#FAF7F2] border border-[#E6DEC8] focus:border-[#D4AF37] focus:outline-none text-sm"
+                      className="w-full px-4 py-3 rounded-xl bg-[#FAF7F2] border border-[#E6DEC8] focus:border-[#D4AF37] focus:outline-none text-sm placeholder:text-[#6E5A48]"
                     />
                   </div>
                   <div>
@@ -169,7 +169,7 @@ export default function Contact() {
                       value={contactForm.email}
                       onChange={(e) => setContactForm({ ...contactForm, email: e.target.value })}
                       placeholder="you@example.com"
-                      className="w-full px-4 py-3 rounded-xl bg-[#FAF7F2] border border-[#E6DEC8] focus:border-[#D4AF37] focus:outline-none text-sm"
+                      className="w-full px-4 py-3 rounded-xl bg-[#FAF7F2] border border-[#E6DEC8] focus:border-[#D4AF37] focus:outline-none text-sm placeholder:text-[#6E5A48]"
                     />
                   </div>
                 </div>
@@ -184,7 +184,7 @@ export default function Contact() {
                     value={contactForm.subject}
                     onChange={(e) => setContactForm({ ...contactForm, subject: e.target.value })}
                     placeholder="Feedback, Feature Suggestion, or Seva Inquiry"
-                    className="w-full px-4 py-3 rounded-xl bg-[#FAF7F2] border border-[#E6DEC8] focus:border-[#D4AF37] focus:outline-none text-sm"
+                    className="w-full px-4 py-3 rounded-xl bg-[#FAF7F2] border border-[#E6DEC8] focus:border-[#D4AF37] focus:outline-none text-sm placeholder:text-[#6E5A48]"
                   />
                 </div>
 
@@ -198,14 +198,14 @@ export default function Contact() {
                     value={contactForm.message}
                     onChange={(e) => setContactForm({ ...contactForm, message: e.target.value })}
                     placeholder="Write your message here..."
-                    className="w-full px-4 py-3 rounded-xl bg-[#FAF7F2] border border-[#E6DEC8] focus:border-[#D4AF37] focus:outline-none text-sm"
+                    className="w-full px-4 py-3 rounded-xl bg-[#FAF7F2] border border-[#E6DEC8] focus:border-[#D4AF37] focus:outline-none text-sm placeholder:text-[#6E5A48]"
                   />
                 </div>
 
                 {formNoticeVisible && (
                   <div className="p-4 rounded-xl bg-[#FAF7F2] border border-[#D4AF37] text-xs text-[#3D2E22] space-y-2">
                     <p className="font-bold text-[#1C120C] flex items-center gap-1.5">
-                      <Info className="w-4 h-4 text-[#9A7418]" />
+                      <Info className="w-4 h-4 text-[#7D5F12]" />
                       <span>Frontend Form Ready (Backend Endpoint Placeholder)</span>
                     </p>
                     <p>
@@ -218,7 +218,7 @@ export default function Contact() {
                       )}&body=${encodeURIComponent(
                         `Name: ${contactForm.name}\nEmail: ${contactForm.email}\n\n${contactForm.message}`,
                       )}`}
-                      className="inline-flex items-center gap-1.5 font-bold text-[#9A7418] underline"
+                      className="inline-flex items-center gap-1.5 font-bold text-[#7D5F12] underline"
                     >
                       <span>Open in Default Email App</span>
                       <ExternalLink className="w-3.5 h-3.5" />

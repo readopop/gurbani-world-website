@@ -4,7 +4,14 @@ export const GurbaniWorldIcon = ({ size = 44, className = '' }) => (
     className={`relative flex items-center justify-center rounded-xl bg-gradient-to-b from-[#064A4D] to-[#032D30] border border-[#D4AF37]/75 shadow-[0_4px_16px_rgba(212,175,55,0.22)] shrink-0 overflow-hidden ${className}`}
     aria-label="Gurbani World Official App Logo"
   >
-    <img src="/logo.png" alt="Gurbani World Logo" className="w-full h-full object-cover" />
+    <img
+      src="/logo-256.webp"
+      alt="Gurbani World Logo"
+      width="256"
+      height="256"
+      decoding="async"
+      className="w-full h-full object-cover"
+    />
   </div>
 );
 
@@ -23,7 +30,7 @@ export const GurbaniWorldLogo = ({ size = 44, lightText = true }) => (
       </span>
       <span
         className={`text-[9.5px] sm:text-[10px] uppercase tracking-[0.2em] mt-1 font-semibold ${
-          lightText ? 'text-[#D4AF37]' : 'text-[#9A7418]'
+          lightText ? 'text-[#D4AF37]' : 'text-[#7D5F12]'
         }`}
       >
         By Singh Tech
