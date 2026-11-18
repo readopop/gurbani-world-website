@@ -24,6 +24,23 @@ export default function usePageMeta() {
     };
 
     upsertMeta('name', 'description', activeSeo.desc);
+
+    // Keep one canonical URL per known route; omit canonicals on the 404 route.
+    const canonicalId = 'gurbani-world-canonical';
+    let canonicalLink = document.getElementById(canonicalId);
+    if (PAGE_META[path]) {
+      if (!canonicalLink) {
+        canonicalLink = document.createElement('link');
+        canonicalLink.id = canonicalId;
+        canonicalLink.rel = 'canonical';
+        document.head.appendChild(canonicalLink);
+      }
+      canonicalLink.href = `https://gurbaniworld.netlify.app${path === '/' ? '/' : path}`;
+      upsertMeta('property', 'og:url', canonicalLink.href);
+    } else {
+      canonicalLink?.remove();
+      document.querySelector('meta[property="og:url"]')?.remove();
+    }
     upsertMeta(
       'name',
       'keywords',
