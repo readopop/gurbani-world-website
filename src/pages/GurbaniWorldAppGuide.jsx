@@ -96,7 +96,7 @@ export default function GurbaniWorldAppGuide() {
         <div className="bg-white rounded-2xl border border-[#E6DEC8] p-5 sm:p-8 space-y-8 text-sm sm:text-base text-[#4A3B2C] leading-7 mb-10">
           <section className="space-y-3">
             <h2 className="font-serif text-2xl font-bold text-[#1C120C]">What is Gurbani World?</h2>
-            <p><strong>Gurbani World</strong> is an Android application by Singh Creations, published on Google Play under the developer display name <strong>SINGH TECH</strong>. It brings together daily Gurbani updates, Nitnem and Bani reading, Sikh scripture resources, Simran tools, Kirtan, videos and educational material in one app.</p>
+            <p><strong>Gurbani World</strong> is an Android application developed by Singh Tech and published on Google Play under the developer display name <strong>SINGH TECH</strong>. It brings together daily Gurbani updates, Nitnem and Bani reading, Sikh scripture resources, Simran tools, Kirtan, videos and educational material in one app.</p>
             <p>The app is intended to make it easier for users to access these resources as part of their personal reading, listening, reflection and learning routines. It is a collection of digital resources; it does not replace guidance from knowledgeable Sikh teachers or the Maryada of the Sangat and Gurdwara.</p>
             <p><strong>App package:</strong> <code className="text-xs bg-[#FAF7F2] px-2 py-1 rounded">com.singhcreations.gurbaniworld</code></p>
           </section>
