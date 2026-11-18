@@ -16,6 +16,10 @@ export const PAGE_META = {
     title: 'Sikhi Learning Hub | Sikh History, Sikh Gurus, 52 Hukamas & FAQ',
     desc: 'Structured Sikh educational resources covering Sikh History, Ten Sikh Gurus, 52 Hukamas, Nanakshahi Sikh Calendar, Learn Punjabi, and FAQ.',
   },
+  '/learning/gurbani-world-app-guide': {
+    title: 'Gurbani World App Guide: Features & How to Use It',
+    desc: 'Learn how to use Gurbani World for Daily Hukamnama, Nitnem, Gurbani reading, Simran Mala, Live Kirtan and Sikh learning. Explore the complete app guide.',
+  },
   '/app': {
     title: 'Gurbani World App | Download on Google Play by SINGH TECH',
     desc: 'Explore screenshots, features, and official Google Play Store download details for the Gurbani World App developed by SINGH TECH (Singh Tech).',
