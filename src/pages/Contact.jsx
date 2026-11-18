@@ -51,7 +51,7 @@ export default function Contact() {
                   <Mail className="w-5 h-5 text-[#9A7418] shrink-0" />
                   <div className="truncate">
                     <p className="text-[11px] font-bold uppercase tracking-wider text-[#9A7418]">
-                      Official Email (Editable Placeholder)
+                      Official Email
                     </p>
                     <p className="text-sm font-semibold text-[#1C120C] truncate">
                       {BRAND_CONFIG.contactEmailPlaceholder}

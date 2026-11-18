@@ -67,14 +67,14 @@ export default function Footer({ onOpenSeoBlueprint }) {
                   Privacy Policy
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="/app-privacy-policy"
                   className="hover:text-[#D4AF37] transition text-xs text-[#D4AF37] cursor-pointer"
                 >
                   Android App Privacy Policy
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/terms" className="hover:text-[#D4AF37] transition cursor-pointer">
                   Terms and Conditions
@@ -105,14 +105,7 @@ export default function Footer({ onOpenSeoBlueprint }) {
             <p className="text-[#D4AF37] font-medium">
               Developed with devotion by {BRAND_CONFIG.organization}.
             </p>
-            <button
-              type="button"
-              onClick={onOpenSeoBlueprint}
-              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-white/5 hover:bg-white/10 border border-[#D4AF37]/30 text-[#FAF7F2]/85 transition cursor-pointer"
-            >
-              <Code2 className="w-3.5 h-3.5 text-[#D4AF37]" />
-              <span>SEO & Netlify Config</span>
-            </button>
+            
           </div>
         </div>
       </div>
