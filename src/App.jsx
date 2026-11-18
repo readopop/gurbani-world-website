@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
@@ -25,7 +25,8 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="features" element={<Features />} />
           <Route path="learning" element={<Learning />} />
-          <Route path="learning/gurbani-world-app-guide" element={<GurbaniWorldAppGuide />} />
+          <Route path="guide" element={<GurbaniWorldAppGuide />} />
+          <Route path="learning/gurbani-world-app-guide" element={<Navigate to="/guide" replace />} />
           <Route path="app" element={<AppShowcase />} />
           <Route path="about-app" element={<AboutApp />} />
           <Route path="contact" element={<Contact />} />
