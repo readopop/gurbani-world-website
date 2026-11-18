@@ -26,7 +26,7 @@ function GuideSection({ icon: Icon, title, children, id }) {
 
 export default function GurbaniWorldAppGuide() {
   useEffect(() => {
-    const canonicalUrl = 'https://gurbaniworld.netlify.app/learning/gurbani-world-app-guide';
+    const canonicalUrl = 'https://gurbaniworld.netlify.app/guide';
     const articleSchema = {
       '@context': 'https://schema.org',
       '@type': 'Article',
@@ -96,7 +96,7 @@ export default function GurbaniWorldAppGuide() {
         <div className="bg-white rounded-2xl border border-[#E6DEC8] p-5 sm:p-8 space-y-8 text-sm sm:text-base text-[#4A3B2C] leading-7 mb-10">
           <section className="space-y-3">
             <h2 className="font-serif text-2xl font-bold text-[#1C120C]">What is Gurbani World?</h2>
-            <p><strong>Gurbani World</strong> is an Android application by Singh Tech, published on Google Play under the developer display name <strong>SINGH TECH</strong>. It brings together daily Gurbani updates, Nitnem and Bani reading, Sikh scripture resources, Simran tools, Kirtan, videos and educational material in one app.</p>
+            <p><strong>Gurbani World</strong> is an Android application developed by Singh Tech and published on Google Play under the developer display name <strong>SINGH TECH</strong>. It brings together daily Gurbani updates, Nitnem and Bani reading, Sikh scripture resources, Simran tools, Kirtan, videos and educational material in one app.</p>
             <p>The app is intended to make it easier for users to access these resources as part of their personal reading, listening, reflection and learning routines. It is a collection of digital resources; it does not replace guidance from knowledgeable Sikh teachers or the Maryada of the Sangat and Gurdwara.</p>
             <p><strong>App package:</strong> <code className="text-xs bg-[#FAF7F2] px-2 py-1 rounded">com.singhcreations.gurbaniworld</code></p>
           </section>
@@ -185,7 +185,7 @@ export default function GurbaniWorldAppGuide() {
             <h2 className="font-serif text-2xl font-bold text-[#1C120C]">Frequently asked questions</h2>
             <div className="space-y-4">
               <div><h3 className="font-semibold text-[#1C120C]">Is Gurbani World available for Android?</h3><p>Yes. The official Gurbani World app is available on Google Play for Android devices.</p></div>
-              <div><h3 className="font-semibold text-[#1C120C]">Who develops and publishes Gurbani World?</h3><p>The app is developed by SINGH TECH.</p></div>
+              <div><h3 className="font-semibold text-[#1C120C]">Who develops and publishes Gurbani World?</h3><p>The app is developed under Singh Creations and appears on Google Play under the developer display name SINGH TECH.</p></div>
               <div><h3 className="font-semibold text-[#1C120C]">Does the app include Daily Hukamnama Sahib?</h3><p>Yes. It includes Daily Hukamnama Sahib from Sri Harmandir Sahib and a separate Sangrand Special Hukamnama feature.</p></div>
               <div><h3 className="font-semibold text-[#1C120C]">How many Banis are available?</h3><p>The app includes a collection of more than 30 Banis for Nitnem and reading.</p></div>
               <div><h3 className="font-semibold text-[#1C120C]">Can I read Sri Guru Granth Sahib Ji and Dasam Granth Sahib Ji?</h3><p>Yes. The app includes reading resources for both Sri Guru Granth Sahib Ji and Sri Dasam Granth Sahib Ji.</p></div>

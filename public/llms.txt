@@ -9,6 +9,7 @@
 - [App Features](https://gurbaniworld.netlify.app/features): All app modules, including Daily Spiritual Updates, Nitnem (30+ Banis), Gurbani Library, Simran Mala, Sikh Learning, Audio & Video, and Spiritual Personalities
 - [Sikhi Learning](https://gurbaniworld.netlify.app/learning): Sikh History, the Ten Sikh Gurus, 52 Hukamas, Nanakshahi Sikh Calendar, Learn Punjabi and FAQ
 - [Gurbani World App](https://gurbaniworld.netlify.app/app): App screenshots and the official Google Play download link
+- [Gurbani World App Guide](https://gurbaniworld.netlify.app/guide): Complete guide to Daily Hukamnama, Nitnem, Gurbani reading, Simran Mala, Live Kirtan, Daily Path Count and Sikh learning resources
 - [About This App](https://gurbaniworld.netlify.app/about-app): Purpose and feature overview of the Android app
 - [Contact](https://gurbaniworld.netlify.app/contact): Feedback, Seva inquiries and official channels
 

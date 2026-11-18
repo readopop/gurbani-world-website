@@ -64,7 +64,7 @@ export default function Learning() {
             </p>
           </div>
           <Link
-            to="/learning/gurbani-world-app-guide"
+            to="/guide"
             className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#1C120C] text-[#FAF7F2] px-5 py-3 text-sm font-semibold hover:bg-[#2A1B12] transition shrink-0"
           >
             Read the App Guide <ArrowRight className="w-4 h-4" />
