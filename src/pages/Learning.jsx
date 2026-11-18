@@ -30,7 +30,7 @@ export default function Learning() {
                 className="bg-white rounded-2xl p-6 border border-[#E6DEC8] hover:border-[#D4AF37] transition shadow-2xs flex flex-col justify-between space-y-5"
               >
                 <div className="space-y-3">
-                  <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#FAF7F2] border border-[#D4AF37]/40 text-[#7D5F12]">
+                  <span className="text-[12px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#FAF7F2] border border-[#D4AF37]/40 text-[#7D5F12]">
                     {module.tag}
                   </span>
                   <h2 className="font-serif text-xl font-bold text-[#1C120C]">{module.title}</h2>
@@ -39,7 +39,7 @@ export default function Learning() {
 
                 <div className="space-y-4 pt-2 border-t border-[#E6DEC8]">
                   <div className="space-y-1.5">
-                    <p className="text-[11px] font-bold uppercase tracking-wider text-[#1C120C]">
+                    <p className="text-[12px] font-bold uppercase tracking-wider text-[#1C120C]">
                       Key Study Topics:
                     </p>
                     <ul className="space-y-1 text-xs text-[#5C4938]">
@@ -52,7 +52,7 @@ export default function Learning() {
                     </ul>
                   </div>
 
-                  <button
+                  {/* <button
                     type="button"
                     onClick={() => setActiveLearningModule(isExpanded ? null : module.id)}
                     className="w-full py-2.5 rounded-xl bg-[#FAF7F2] hover:bg-[#F2ECE1] border border-[#E6DEC8] text-xs font-bold text-[#1C120C] flex items-center justify-center gap-1 transition cursor-pointer"
@@ -61,7 +61,7 @@ export default function Learning() {
                     <ChevronRight
                       className={`w-4 h-4 transition-transform ${isExpanded ? 'rotate-90' : ''}`}
                     />
-                  </button>
+                  </button> */}
 
                   {isExpanded && (
                     <div className="p-3.5 rounded-xl bg-[#FAF7F2] border border-[#D4AF37]/40 text-xs text-[#4A3B2C] leading-relaxed italic">
