@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://gurbaniworld.org/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://gurbaniworld.org/#about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://gurbaniworld.org/#features</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://gurbaniworld.org/#learning</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://gurbaniworld.org/#app</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://gurbaniworld.org/#contact</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://gurbaniworld.org/#privacy</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://gurbaniworld.org/#terms</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://gurbaniworld.netlify.app/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://gurbaniworld.netlify.app/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://gurbaniworld.netlify.app/features</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://gurbaniworld.netlify.app/learning</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://gurbaniworld.netlify.app/app</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://gurbaniworld.netlify.app/about-app</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gurbaniworld.netlify.app/contact</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gurbaniworld.netlify.app/privacy</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://gurbaniworld.netlify.app/app-privacy-policy</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://gurbaniworld.netlify.app/terms</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
 </urlset>

@@ -2,6 +2,14 @@
   command = "npm run build"
   publish = "dist"
 
+# No ARD (Agentic Resource Discovery) manifest is published for this site.
+# Return a genuine 404 for it instead of letting the SPA fallback below answer
+# with the homepage HTML and a 200 status, which validators read as an invalid manifest.
+[[redirects]]
+  from = "/.well-known/ard.json"
+  to = "/index.html"
+  status = 404
+
 [[redirects]]
   from = "/*"
   to = "/index.html"

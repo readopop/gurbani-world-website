@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gurbaniworld.org/sitemap.xml
+Sitemap: https://gurbaniworld.netlify.app/sitemap.xml

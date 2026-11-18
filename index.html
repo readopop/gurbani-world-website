@@ -4,7 +4,31 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>gurbani-world-website</title>
+
+    <!-- Static defaults for crawlers that don't run JavaScript.
+         usePageMeta() overwrites these per route at runtime (values mirror PAGE_META['/']). -->
+    <title>Gurbani World | Official Sikh Spiritual, Nitnem &amp; Gurbani Learning Platform</title>
+     <meta
+  name="description"
+  content="Discover Gurbani World by Singh Tech, a Sikh spiritual app featuring Daily Hukamnama Sahib, Sangrand Hukamnama, Nitnem, 30+ Banis, Sri Guru Granth Sahib Ji, Dasam Granth Sahib Ji, Gurbani Search, Amrit Kirtan, Live Kirtan, Sikh Videos, Random Shabad, Simran Mala, Waheguru Simran, Sikh Gurus, Sikh History, Punjabi Gurmukhi Learning, Nanakshahi Calendar, 52 Hukamas, Baba Nand Singh Ji Bachan, Sant Singh Ji Maskeen Vichar, Aaj Ka Vichar and Daily Path Count."
+/>
+
+    <!-- Fonts: Cinzel, Plus Jakarta Sans, Noto Sans Devanagari (previously injected from Layout.jsx).
+         Loaded without blocking first render; display=swap keeps text visible meanwhile. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      />
+    </noscript>
   </head>
   <body>
     <div id="root"></div>

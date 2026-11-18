@@ -1,0 +1,23 @@
+# Gurbani World
+
+> Gurbani World is the official website of the Gurbani World Android app by Singh Tech: a Sikh spiritual and learning platform with daily Hukamnama Sahib, Nitnem Banis, a Gurbani library, Waheguru Simran Mala, Sikh history and educational resources. The app is available free on Google Play.
+
+## Main pages
+
+- [Home](https://gurbaniworld.netlify.app/): Overview of Gurbani World and the Android app
+- [About](https://gurbaniworld.netlify.app/about): Vision, mission and the team behind Gurbani World (Singh Tech)
+- [App Features](https://gurbaniworld.netlify.app/features): All app modules, including Daily Spiritual Updates, Nitnem (30+ Banis), Gurbani Library, Simran Mala, Sikh Learning, Audio & Video, and Spiritual Personalities
+- [Sikhi Learning](https://gurbaniworld.netlify.app/learning): Sikh History, the Ten Sikh Gurus, 52 Hukamas, Nanakshahi Sikh Calendar, Learn Punjabi and FAQ
+- [Gurbani World App](https://gurbaniworld.netlify.app/app): App screenshots and the official Google Play download link
+- [About This App](https://gurbaniworld.netlify.app/about-app): Purpose and feature overview of the Android app
+- [Contact](https://gurbaniworld.netlify.app/contact): Feedback, Seva inquiries and official channels
+
+## Policies
+
+- [Website Privacy Policy](https://gurbaniworld.netlify.app/privacy): Privacy policy for this website
+- [App Privacy Policy](https://gurbaniworld.netlify.app/app-privacy-policy): Privacy policy for the Android application
+- [Terms and Conditions](https://gurbaniworld.netlify.app/terms): Terms for using the website and its educational resources
+
+## Optional
+
+- [Google Play listing](https://play.google.com/store/apps/details?id=com.singhcreations.gurbaniworld): Official download page for the Android app
