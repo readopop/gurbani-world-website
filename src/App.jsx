@@ -8,6 +8,7 @@ import NotFound from './pages/NotFound';
 const About = lazy(() => import('./pages/About'));
 const Features = lazy(() => import('./pages/Features'));
 const Learning = lazy(() => import('./pages/Learning'));
+const GurbaniWorldAppGuide = lazy(() => import('./pages/GurbaniWorldAppGuide'));
 const AppShowcase = lazy(() => import('./pages/AppShowcase'));
 const AboutApp = lazy(() => import('./pages/AboutApp'));
 const Contact = lazy(() => import('./pages/Contact'));
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="features" element={<Features />} />
           <Route path="learning" element={<Learning />} />
+          <Route path="learning/gurbani-world-app-guide" element={<GurbaniWorldAppGuide />} />
           <Route path="app" element={<AppShowcase />} />
           <Route path="about-app" element={<AboutApp />} />
           <Route path="contact" element={<Contact />} />
