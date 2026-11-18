@@ -26,7 +26,7 @@ function GuideSection({ icon: Icon, title, children, id }) {
 
 export default function GurbaniWorldAppGuide() {
   useEffect(() => {
-    const canonicalUrl = 'https://gurbaniworld.netlify.app/learning/gurbani-world-app-guide';
+    const canonicalUrl = 'https://gurbaniworld.netlify.app/guide';
     const articleSchema = {
       '@context': 'https://schema.org',
       '@type': 'Article',
@@ -185,7 +185,7 @@ export default function GurbaniWorldAppGuide() {
             <h2 className="font-serif text-2xl font-bold text-[#1C120C]">Frequently asked questions</h2>
             <div className="space-y-4">
               <div><h3 className="font-semibold text-[#1C120C]">Is Gurbani World available for Android?</h3><p>Yes. The official Gurbani World app is available on Google Play for Android devices.</p></div>
-              <div><h3 className="font-semibold text-[#1C120C]">Who develops and publishes Gurbani World?</h3><p>The app is developed under Singh Creations and appears on Google Play under the developer display name SINGH TECH.</p></div>
+              <div><h3 className="font-semibold text-[#1C120C]">Who develops and publishes Gurbani World?</h3><p>The app is developed by Singh Tech and appears on Google Play under the developer display name SINGH TECH.</p></div>
               <div><h3 className="font-semibold text-[#1C120C]">Does the app include Daily Hukamnama Sahib?</h3><p>Yes. It includes Daily Hukamnama Sahib from Sri Harmandir Sahib and a separate Sangrand Special Hukamnama feature.</p></div>
               <div><h3 className="font-semibold text-[#1C120C]">How many Banis are available?</h3><p>The app includes a collection of more than 30 Banis for Nitnem and reading.</p></div>
               <div><h3 className="font-semibold text-[#1C120C]">Can I read Sri Guru Granth Sahib Ji and Dasam Granth Sahib Ji?</h3><p>Yes. The app includes reading resources for both Sri Guru Granth Sahib Ji and Sri Dasam Granth Sahib Ji.</p></div>
