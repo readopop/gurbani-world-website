@@ -10,6 +10,80 @@
   to = "/index.html"
   status = 404
 
+# Permanent legacy App Guide URL redirect.
+[[redirects]]
+  from = "/learning/gurbani-world-app-guide"
+  to = "/guide"
+  status = 301
+  force = true
+
+# Serve build-time prerendered HTML before the SPA fallback.
+[[redirects]]
+  from = "/"
+  to = "/pages/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/about"
+  to = "/pages/about/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/features"
+  to = "/pages/features/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/learning"
+  to = "/pages/learning/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/guide"
+  to = "/pages/guide/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/app"
+  to = "/pages/app/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/about-app"
+  to = "/pages/about-app/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/contact"
+  to = "/pages/contact/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/privacy"
+  to = "/pages/privacy/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/app-privacy-policy"
+  to = "/pages/app-privacy-policy/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/terms"
+  to = "/pages/terms/index.html"
+  status = 200
+  force = true
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
