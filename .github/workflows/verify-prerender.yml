@@ -1,0 +1,48 @@
+name: Verify prerender build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/verify-prerender.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Sync package lock
+        run: npm install --package-lock-only --ignore-scripts
+      - name: Install dependencies
+        run: npm ci
+      - name: Build and prerender
+        run: npm run build
+      - name: Inspect generated HTML
+        run: |
+          echo "=== Generated route files ==="
+          find dist -maxdepth 4 -type f | sort | grep -E '(^dist/pages/|dist/index.html)' || true
+          echo "=== Guide HTML metadata/content ==="
+          if [ -f dist/pages/guide/index.html ]; then
+            grep -Eo '<title>[^<]*</title>|<link[^>]+rel="canonical"[^>]*>|What is Gurbani World\?|developed by Singh Tech' dist/pages/guide/index.html | head -30
+          else
+            echo "MISSING: dist/pages/guide/index.html"
+            exit 1
+          fi
+      - name: Commit synchronized lockfile
+        run: |
+          if ! git diff --quiet -- package-lock.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add package-lock.json
+            git commit -m "Sync lockfile for prerender dependency"
+            git push
+          else
+            echo "Lockfile already synchronized."
+          fi
